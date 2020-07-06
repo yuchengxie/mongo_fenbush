@@ -69,6 +69,7 @@ module.exports = appInfo => {
       // url: "mongodb://106.53.254.36:27018/test?replaceState=rs",
       // url: "mongodb://106.53.254.36:27017?replicaSet=rs",
       // url: "mongodb://localhost:27017,localhost:27018,localhost:27019?replicaSet=rs",
+      // url: "mongodb://localhost:27017,localhost:27018,localhost:27019?replicaSet=rs",
       url: "mongodb://localhost:27017,localhost:27018,localhost:27019?replicaSet=rs",
       options: {
         useNewUrlParser: true,

@@ -6,7 +6,7 @@
 module.exports = app => {
 
   const mongoose = app.mongoose;
-  const connect = app.mongooseDB.get('db1') // config配置的数据库别名
+  // const connect = app.mongooseDB.get('db1') // config配置的数据库别名
   // console.log('connect:', connect);
   const Schema = mongoose.Schema;
   var d = new Date();
